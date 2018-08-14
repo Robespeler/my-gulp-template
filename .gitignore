@@ -1,0 +1,7 @@
+/node_modules/
+/build/
+/resource/
+/package-lock.json
+*.json
+*.DS_Store
+/gulpfile.js

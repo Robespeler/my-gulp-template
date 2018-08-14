@@ -1,0 +1,55 @@
+/*
+$base-font: "Helvetica", "Arial", sans-serif;
+$color1: #ddd;
+$color2: #000;
+
+
+@mixin font($font-size: 16px, $line-height: 24px, $font-weight: 400, $color: $text-color) {
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  color: $color;
+}
+
+%clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+%padding {
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+%padding20 {
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+%center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+%container {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+
+  @media #{$tablet-widths} {
+    width: 768px;
+  }
+
+  @media #{$desktop-widths} {
+    width: 1240px;
+  }
+}
+*/
